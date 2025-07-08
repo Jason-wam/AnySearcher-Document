@@ -267,12 +267,15 @@ div.ssbox > @range(0..2)  // 获取第1-3项
 ## 常见问题
 
 Q: 如何提取磁力链接？
+
 A: 使用 `itemHrefPrefix` 拼接匹配结果或直接匹配完整磁力链接
 
 Q: 页码不从1开始怎么办？
+
 A: 调整 `pageOffset`（如从0开始设为-1）
 
 Q: 如何获取绝对URL？
+
 A: 使用 `@attr(abs:href)`
 
 
